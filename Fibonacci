@@ -5,18 +5,16 @@ public class Fibonacci {
 	public static void main(String[] args) {
 
 			int range=8;
-			int firstNum=0;
-			int secondNum=1;
-			int thirdNum;
+			int Num1=0;
+			int Num2=1;
+			int Num3;
 			System.out.println("fibonacci series :{");
-
-
-		for (int i=0;i<range;i++)
+	for (int i=0;i<range;i++)
 		{
-	System.out.println(firstNum+",");
-		    thirdNum=firstNum+secondNum;
-			firstNum=secondNum;
-			secondNum=thirdNum;
+	System.out.println(Num1+",");
+		    Num3=Num1+Num2;
+			Num1=Num2;
+			Num2=Num3;
 		}
 		System.out.println("}");
 		}
