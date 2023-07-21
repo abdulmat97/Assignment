@@ -2,8 +2,8 @@ package week1.day1;
 
 public class IntersectionOfTwoArrays {
    public static void main(String args[]) {
-      int myArray1[] = {23, 36, 96, 78, 55};
-      int myArray2[] = {78, 45, 19, 73, 55};
+      int myArray1[] = {2, 6, 9, 18, 5};
+      int myArray2[] = {8, 4, 1, 71, 5};
      
      
       for(int i = 0; i<myArray1.length; i++ ) {
