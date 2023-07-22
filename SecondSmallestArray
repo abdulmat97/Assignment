@@ -5,7 +5,7 @@ public class SecondSmallestArray {
 
 	public static void main(String[] args) {
 
-int[] num={23,45,67,32,89,22};
+int[] num={44,22,87,46,89,92};
 Arrays.sort(num);
 System.out.println("The smallest number is: "+num[0]);
 System.out.println("The second smallest number is: "+num[1]);
